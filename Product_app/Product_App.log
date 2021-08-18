@@ -1,0 +1,224 @@
+[main] 2021-08-18 12:25:02 INFO  com.app.Main  - ==========================================================================
+[main] 2021-08-18 12:25:02 INFO  com.app.Main  -  _________________________________
+[main] 2021-08-18 12:25:02 INFO  com.app.Main  - |                                 |
+[main] 2021-08-18 12:25:02 INFO  com.app.Main  - |1) login as Customer             |
+[main] 2021-08-18 12:25:02 INFO  com.app.Main  - |2) login as Employee             |
+[main] 2021-08-18 12:25:02 INFO  com.app.Main  - |3) Register yourself an New user |
+[main] 2021-08-18 12:25:02 INFO  com.app.Main  - |4) Exit                          |
+[main] 2021-08-18 12:25:02 INFO  com.app.Main  - |_________________________________|
+[main] 2021-08-18 12:25:02 INFO  com.app.Main  - Please Enter your choice
+[main] 2021-08-18 12:25:10 WARN  com.app.Main  - Your Choice Must be an Integer
+[main] 2021-08-18 12:25:10 WARN  com.app.Main  - Invalid Choice Please Enter the choice between(1-4)
+[main] 2021-08-18 12:25:10 INFO  com.app.Main  - ==========================================================================
+[main] 2021-08-18 12:25:10 INFO  com.app.Main  -  _________________________________
+[main] 2021-08-18 12:25:10 INFO  com.app.Main  - |                                 |
+[main] 2021-08-18 12:25:10 INFO  com.app.Main  - |1) login as Customer             |
+[main] 2021-08-18 12:25:10 INFO  com.app.Main  - |2) login as Employee             |
+[main] 2021-08-18 12:25:10 INFO  com.app.Main  - |3) Register yourself an New user |
+[main] 2021-08-18 12:25:10 INFO  com.app.Main  - |4) Exit                          |
+[main] 2021-08-18 12:25:10 INFO  com.app.Main  - |_________________________________|
+[main] 2021-08-18 12:25:10 INFO  com.app.Main  - Please Enter your choice
+[main] 2021-08-18 12:25:22 INFO  com.app.Main  - Thanks for Using this App We'll See You Soon
+[main] 2021-08-18 12:26:33 INFO  com.app.Main  -   Welcome To Reliable Online shopping Menu Driven Console Based App 
+[main] 2021-08-18 12:26:33 INFO  com.app.Main  - ==========================================================================
+[main] 2021-08-18 12:26:33 INFO  com.app.Main  -  _________________________________
+[main] 2021-08-18 12:26:33 INFO  com.app.Main  - |                                 |
+[main] 2021-08-18 12:26:33 INFO  com.app.Main  - |1) login as Customer             |
+[main] 2021-08-18 12:26:33 INFO  com.app.Main  - |2) login as Employee             |
+[main] 2021-08-18 12:26:33 INFO  com.app.Main  - |3) Register yourself an New user |
+[main] 2021-08-18 12:26:33 INFO  com.app.Main  - |4) Exit                          |
+[main] 2021-08-18 12:26:33 INFO  com.app.Main  - |_________________________________|
+[main] 2021-08-18 12:26:33 INFO  com.app.Main  - Please Enter your choice
+[main] 2021-08-18 12:26:43 INFO  com.app.Main  - ==========================================================================
+[main] 2021-08-18 12:26:43 INFO  com.app.Main  -  _________________________________
+[main] 2021-08-18 12:26:43 INFO  com.app.Main  - |                                 |
+[main] 2021-08-18 12:26:43 INFO  com.app.Main  - |1) login as Customer             |
+[main] 2021-08-18 12:26:43 INFO  com.app.Main  - |2) login as Employee             |
+[main] 2021-08-18 12:26:43 INFO  com.app.Main  - |3) Register yourself an New user |
+[main] 2021-08-18 12:26:43 INFO  com.app.Main  - |4) Exit                          |
+[main] 2021-08-18 12:26:43 INFO  com.app.Main  - |_________________________________|
+[main] 2021-08-18 12:26:43 INFO  com.app.Main  - Please Enter your choice
+[main] 2021-08-18 12:27:38 INFO  com.app.Main  -   Welcome To Reliable Online shopping Menu Driven Console Based App 
+[main] 2021-08-18 12:27:38 INFO  com.app.Main  - ==========================================================================
+[main] 2021-08-18 12:27:38 INFO  com.app.Main  -  _________________________________
+[main] 2021-08-18 12:27:38 INFO  com.app.Main  - |                                 |
+[main] 2021-08-18 12:27:38 INFO  com.app.Main  - |1) login as Customer             |
+[main] 2021-08-18 12:27:38 INFO  com.app.Main  - |2) login as Employee             |
+[main] 2021-08-18 12:27:38 INFO  com.app.Main  - |3) Register yourself an New user |
+[main] 2021-08-18 12:27:38 INFO  com.app.Main  - |4) Exit                          |
+[main] 2021-08-18 12:27:38 INFO  com.app.Main  - |_________________________________|
+[main] 2021-08-18 12:27:38 INFO  com.app.Main  - Please Enter your choice
+[main] 2021-08-18 12:58:17 INFO  com.app.Main  -   Welcome To Reliable Online shopping Menu Driven Console Based App 
+[main] 2021-08-18 12:58:17 INFO  com.app.Main  - ==========================================================================
+[main] 2021-08-18 12:58:17 INFO  com.app.Main  -  _________________________________
+[main] 2021-08-18 12:58:17 INFO  com.app.Main  - |                                 |
+[main] 2021-08-18 12:58:17 INFO  com.app.Main  - |1) login as Customer             |
+[main] 2021-08-18 12:58:17 INFO  com.app.Main  - |2) login as Employee             |
+[main] 2021-08-18 12:58:17 INFO  com.app.Main  - |3) Register yourself an New user |
+[main] 2021-08-18 12:58:17 INFO  com.app.Main  - |4) Exit                          |
+[main] 2021-08-18 12:58:17 INFO  com.app.Main  - |_________________________________|
+[main] 2021-08-18 12:58:17 INFO  com.app.Main  - Please Enter your choice
+[main] 2021-08-18 12:58:25 INFO  com.app.Main  - Enter your Email
+[main] 2021-08-18 12:58:36 INFO  com.app.Main  - iwbdaskcd
+[main] 2021-08-18 12:58:36 INFO  com.app.Main  - Enter your Password
+[main] 2021-08-18 13:00:05 INFO  com.app.Main  -   Welcome To Reliable Online shopping Menu Driven Console Based App 
+[main] 2021-08-18 13:00:05 INFO  com.app.Main  - ==========================================================================
+[main] 2021-08-18 13:00:05 INFO  com.app.Main  -  _________________________________
+[main] 2021-08-18 13:00:05 INFO  com.app.Main  - |                                 |
+[main] 2021-08-18 13:00:05 INFO  com.app.Main  - |1) login as Customer             |
+[main] 2021-08-18 13:00:05 INFO  com.app.Main  - |2) login as Employee             |
+[main] 2021-08-18 13:00:05 INFO  com.app.Main  - |3) Register yourself an New user |
+[main] 2021-08-18 13:00:05 INFO  com.app.Main  - |4) Exit                          |
+[main] 2021-08-18 13:00:05 INFO  com.app.Main  - |_________________________________|
+[main] 2021-08-18 13:00:05 INFO  com.app.Main  - Please Enter your choice
+[main] 2021-08-18 13:00:08 INFO  com.app.Main  - Enter your Email
+[main] 2021-08-18 13:00:11 INFO  com.app.Main  - alsvnjvvb
+[main] 2021-08-18 13:00:11 INFO  com.app.Main  - Enter your Password
+[main] 2021-08-18 13:00:51 INFO  com.app.Main  -   Welcome To Reliable Online shopping Menu Driven Console Based App 
+[main] 2021-08-18 13:00:51 INFO  com.app.Main  - ==========================================================================
+[main] 2021-08-18 13:00:51 INFO  com.app.Main  -  _________________________________
+[main] 2021-08-18 13:00:51 INFO  com.app.Main  - |                                 |
+[main] 2021-08-18 13:00:51 INFO  com.app.Main  - |1) login as Customer             |
+[main] 2021-08-18 13:00:51 INFO  com.app.Main  - |2) login as Employee             |
+[main] 2021-08-18 13:00:51 INFO  com.app.Main  - |3) Register yourself an New user |
+[main] 2021-08-18 13:00:51 INFO  com.app.Main  - |4) Exit                          |
+[main] 2021-08-18 13:00:51 INFO  com.app.Main  - |_________________________________|
+[main] 2021-08-18 13:00:51 INFO  com.app.Main  - Please Enter your choice
+[main] 2021-08-18 13:01:13 INFO  com.app.Main  - Enter your Email
+[main] 2021-08-18 13:01:18 INFO  com.app.Main  - Enter your Password
+[main] 2021-08-18 13:01:21 WARN  com.app.Main  - Invalid Password  Please Enter a Valid Password Min of 4 Character and Min of three Integer
+[main] 2021-08-18 13:01:21 INFO  com.app.Main  -   Welcome To Reliable Online shopping Menu Driven Console Based App 
+[main] 2021-08-18 13:01:21 INFO  com.app.Main  - ==========================================================================
+[main] 2021-08-18 13:01:21 INFO  com.app.Main  -  _________________________________
+[main] 2021-08-18 13:01:21 INFO  com.app.Main  - |                                 |
+[main] 2021-08-18 13:01:21 INFO  com.app.Main  - |1) login as Customer             |
+[main] 2021-08-18 13:01:21 INFO  com.app.Main  - |2) login as Employee             |
+[main] 2021-08-18 13:01:21 INFO  com.app.Main  - |3) Register yourself an New user |
+[main] 2021-08-18 13:01:21 INFO  com.app.Main  - |4) Exit                          |
+[main] 2021-08-18 13:01:21 INFO  com.app.Main  - |_________________________________|
+[main] 2021-08-18 13:01:21 INFO  com.app.Main  - Please Enter your choice
+[main] 2021-08-18 13:01:29 INFO  com.app.Main  - Enter your Email
+[main] 2021-08-18 13:01:31 INFO  com.app.Main  - Enter your Password
+[main] 2021-08-18 13:01:36 WARN  com.app.Main  - Invalid Password  Please Enter a Valid Password Min of 4 Character and Min of three Integer
+[main] 2021-08-18 13:01:36 INFO  com.app.Main  -   Welcome To Reliable Online shopping Menu Driven Console Based App 
+[main] 2021-08-18 13:01:36 INFO  com.app.Main  - ==========================================================================
+[main] 2021-08-18 13:01:36 INFO  com.app.Main  -  _________________________________
+[main] 2021-08-18 13:01:36 INFO  com.app.Main  - |                                 |
+[main] 2021-08-18 13:01:36 INFO  com.app.Main  - |1) login as Customer             |
+[main] 2021-08-18 13:01:36 INFO  com.app.Main  - |2) login as Employee             |
+[main] 2021-08-18 13:01:36 INFO  com.app.Main  - |3) Register yourself an New user |
+[main] 2021-08-18 13:01:36 INFO  com.app.Main  - |4) Exit                          |
+[main] 2021-08-18 13:01:36 INFO  com.app.Main  - |_________________________________|
+[main] 2021-08-18 13:01:36 INFO  com.app.Main  - Please Enter your choice
+[main] 2021-08-18 13:01:42 INFO  com.app.Main  - Enter your Email
+[main] 2021-08-18 13:01:46 INFO  com.app.Main  - Enter your Password
+[main] 2021-08-18 13:01:52 INFO  com.app.Main  - Welcome to Main menu of App
+[main] 2021-08-18 13:01:52 INFO  com.app.Main  -   Welcome To Reliable Online shopping Menu Driven Console Based App 
+[main] 2021-08-18 13:01:52 INFO  com.app.Main  - ==========================================================================
+[main] 2021-08-18 13:01:52 INFO  com.app.Main  -  _________________________________
+[main] 2021-08-18 13:01:52 INFO  com.app.Main  - |                                 |
+[main] 2021-08-18 13:01:52 INFO  com.app.Main  - |1) login as Customer             |
+[main] 2021-08-18 13:01:52 INFO  com.app.Main  - |2) login as Employee             |
+[main] 2021-08-18 13:01:52 INFO  com.app.Main  - |3) Register yourself an New user |
+[main] 2021-08-18 13:01:52 INFO  com.app.Main  - |4) Exit                          |
+[main] 2021-08-18 13:01:52 INFO  com.app.Main  - |_________________________________|
+[main] 2021-08-18 13:01:52 INFO  com.app.Main  - Please Enter your choice
+[main] 2021-08-18 13:03:37 INFO  com.app.Main  -   Welcome To Reliable Online shopping Menu Driven Console Based App 
+[main] 2021-08-18 13:03:37 INFO  com.app.Main  - ==========================================================================
+[main] 2021-08-18 13:03:37 INFO  com.app.Main  -  _________________________________
+[main] 2021-08-18 13:03:37 INFO  com.app.Main  - |                                 |
+[main] 2021-08-18 13:03:37 INFO  com.app.Main  - |1) login as Customer             |
+[main] 2021-08-18 13:03:37 INFO  com.app.Main  - |2) login as Employee             |
+[main] 2021-08-18 13:03:37 INFO  com.app.Main  - |3) Register yourself an New user |
+[main] 2021-08-18 13:03:37 INFO  com.app.Main  - |4) Exit                          |
+[main] 2021-08-18 13:03:37 INFO  com.app.Main  - |_________________________________|
+[main] 2021-08-18 13:03:37 INFO  com.app.Main  - Please Enter your choice
+[main] 2021-08-18 13:03:48 INFO  com.app.Main  - Enter your Email
+[main] 2021-08-18 13:03:59 WARN  com.app.Main  - Invalid Email id Please Enter a Valid email id
+[main] 2021-08-18 13:03:59 INFO  com.app.Main  -   Welcome To Reliable Online shopping Menu Driven Console Based App 
+[main] 2021-08-18 13:03:59 INFO  com.app.Main  - ==========================================================================
+[main] 2021-08-18 13:03:59 INFO  com.app.Main  -  _________________________________
+[main] 2021-08-18 13:03:59 INFO  com.app.Main  - |                                 |
+[main] 2021-08-18 13:03:59 INFO  com.app.Main  - |1) login as Customer             |
+[main] 2021-08-18 13:03:59 INFO  com.app.Main  - |2) login as Employee             |
+[main] 2021-08-18 13:03:59 INFO  com.app.Main  - |3) Register yourself an New user |
+[main] 2021-08-18 13:03:59 INFO  com.app.Main  - |4) Exit                          |
+[main] 2021-08-18 13:03:59 INFO  com.app.Main  - |_________________________________|
+[main] 2021-08-18 13:03:59 INFO  com.app.Main  - Please Enter your choice
+[main] 2021-08-18 13:04:30 INFO  com.app.Main  -   Welcome To Reliable Online shopping Menu Driven Console Based App 
+[main] 2021-08-18 13:04:30 INFO  com.app.Main  - ==========================================================================
+[main] 2021-08-18 13:04:30 INFO  com.app.Main  -  _________________________________
+[main] 2021-08-18 13:04:30 INFO  com.app.Main  - |                                 |
+[main] 2021-08-18 13:04:30 INFO  com.app.Main  - |1) login as Customer             |
+[main] 2021-08-18 13:04:30 INFO  com.app.Main  - |2) login as Employee             |
+[main] 2021-08-18 13:04:30 INFO  com.app.Main  - |3) Register yourself an New user |
+[main] 2021-08-18 13:04:30 INFO  com.app.Main  - |4) Exit                          |
+[main] 2021-08-18 13:04:30 INFO  com.app.Main  - |_________________________________|
+[main] 2021-08-18 13:04:30 INFO  com.app.Main  - Please Enter your choice
+[main] 2021-08-18 13:05:11 INFO  com.app.Main  - Enter your Email
+[main] 2021-08-18 13:05:21 INFO  com.app.Main  - Enter your Password
+[main] 2021-08-18 13:05:29 INFO  com.app.Main  - Welcome to Main menu of App
+[main] 2021-08-18 13:05:29 INFO  com.app.Main  -   Welcome To Reliable Online shopping Menu Driven Console Based App 
+[main] 2021-08-18 13:05:29 INFO  com.app.Main  - ==========================================================================
+[main] 2021-08-18 13:05:29 INFO  com.app.Main  -  _________________________________
+[main] 2021-08-18 13:05:29 INFO  com.app.Main  - |                                 |
+[main] 2021-08-18 13:05:29 INFO  com.app.Main  - |1) login as Customer             |
+[main] 2021-08-18 13:05:29 INFO  com.app.Main  - |2) login as Employee             |
+[main] 2021-08-18 13:05:29 INFO  com.app.Main  - |3) Register yourself an New user |
+[main] 2021-08-18 13:05:29 INFO  com.app.Main  - |4) Exit                          |
+[main] 2021-08-18 13:05:29 INFO  com.app.Main  - |_________________________________|
+[main] 2021-08-18 13:05:29 INFO  com.app.Main  - Please Enter your choice
+[main] 2021-08-18 13:05:43 INFO  com.app.Main  - Enter your Email
+[main] 2021-08-18 13:05:47 WARN  com.app.Main  - Invalid Email id Please Enter a Valid email id
+[main] 2021-08-18 13:05:47 INFO  com.app.Main  -   Welcome To Reliable Online shopping Menu Driven Console Based App 
+[main] 2021-08-18 13:05:47 INFO  com.app.Main  - ==========================================================================
+[main] 2021-08-18 13:05:47 INFO  com.app.Main  -  _________________________________
+[main] 2021-08-18 13:05:47 INFO  com.app.Main  - |                                 |
+[main] 2021-08-18 13:05:47 INFO  com.app.Main  - |1) login as Customer             |
+[main] 2021-08-18 13:05:47 INFO  com.app.Main  - |2) login as Employee             |
+[main] 2021-08-18 13:05:47 INFO  com.app.Main  - |3) Register yourself an New user |
+[main] 2021-08-18 13:05:47 INFO  com.app.Main  - |4) Exit                          |
+[main] 2021-08-18 13:05:47 INFO  com.app.Main  - |_________________________________|
+[main] 2021-08-18 13:05:47 INFO  com.app.Main  - Please Enter your choice
+[main] 2021-08-18 14:11:24 INFO  com.app.Main  -   Welcome To Reliable Online shopping Menu Driven Console Based App 
+[main] 2021-08-18 14:11:24 INFO  com.app.Main  - ==========================================================================
+[main] 2021-08-18 14:11:24 INFO  com.app.Main  -  _________________________________
+[main] 2021-08-18 14:11:24 INFO  com.app.Main  - |                                 |
+[main] 2021-08-18 14:11:24 INFO  com.app.Main  - |1) login as Customer             |
+[main] 2021-08-18 14:11:24 INFO  com.app.Main  - |2) login as Employee             |
+[main] 2021-08-18 14:11:24 INFO  com.app.Main  - |3) Register yourself an New user |
+[main] 2021-08-18 14:11:24 INFO  com.app.Main  - |4) Exit                          |
+[main] 2021-08-18 14:11:24 INFO  com.app.Main  - |_________________________________|
+[main] 2021-08-18 14:11:24 INFO  com.app.Main  - Please Enter your choice
+[main] 2021-08-18 14:11:43 INFO  com.app.Main  - Enter your Id
+[main] 2021-08-18 14:11:54 WARN  com.app.Main  - Invalid Employee id Please Enter a Valid Employee id
+[main] 2021-08-18 14:11:54 INFO  com.app.Main  -   Welcome To Reliable Online shopping Menu Driven Console Based App 
+[main] 2021-08-18 14:11:54 INFO  com.app.Main  - ==========================================================================
+[main] 2021-08-18 14:11:54 INFO  com.app.Main  -  _________________________________
+[main] 2021-08-18 14:11:54 INFO  com.app.Main  - |                                 |
+[main] 2021-08-18 14:11:54 INFO  com.app.Main  - |1) login as Customer             |
+[main] 2021-08-18 14:11:54 INFO  com.app.Main  - |2) login as Employee             |
+[main] 2021-08-18 14:11:54 INFO  com.app.Main  - |3) Register yourself an New user |
+[main] 2021-08-18 14:11:54 INFO  com.app.Main  - |4) Exit                          |
+[main] 2021-08-18 14:11:54 INFO  com.app.Main  - |_________________________________|
+[main] 2021-08-18 14:11:54 INFO  com.app.Main  - Please Enter your choice
+[main] 2021-08-18 14:12:28 INFO  com.app.Main  -   Welcome To Reliable Online shopping Menu Driven Console Based App 
+[main] 2021-08-18 14:12:28 INFO  com.app.Main  - ==========================================================================
+[main] 2021-08-18 14:12:28 INFO  com.app.Main  -  _________________________________
+[main] 2021-08-18 14:12:28 INFO  com.app.Main  - |                                 |
+[main] 2021-08-18 14:12:28 INFO  com.app.Main  - |1) login as Customer             |
+[main] 2021-08-18 14:12:28 INFO  com.app.Main  - |2) login as Employee             |
+[main] 2021-08-18 14:12:28 INFO  com.app.Main  - |3) Register yourself an New user |
+[main] 2021-08-18 14:12:28 INFO  com.app.Main  - |4) Exit                          |
+[main] 2021-08-18 14:12:28 INFO  com.app.Main  - |_________________________________|
+[main] 2021-08-18 14:12:28 INFO  com.app.Main  - Please Enter your choice
+[main] 2021-08-18 14:12:37 INFO  com.app.Main  - Enter your Id
+[main] 2021-08-18 14:12:57 INFO  com.app.Main  - Enter your Password
+[main] 2021-08-18 14:13:03 INFO  com.app.Main  -  
+  Welcome to Main menu of App       
+[main] 2021-08-18 14:13:03 INFO  com.app.Main  - =======================================
+[main] 2021-08-18 14:13:03 INFO  com.app.Main  - |1) Add Products to Menu        |
+[main] 2021-08-18 14:13:03 INFO  com.app.Main  - |2) Update the price of product |
+[main] 2021-08-18 14:13:03 INFO  com.app.Main  - |3) Logout                      |
+[main] 2021-08-18 14:13:03 INFO  com.app.Main  - |_______________________________|
+[main] 2021-08-18 14:13:03 INFO  com.app.Main  - Enter your choice

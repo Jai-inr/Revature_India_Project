@@ -1,0 +1,28 @@
+                                                               Road Map Product
+
+      Welcome To Reliable Online shopping  Console Based App
+========================================================================
+
+1) Login as Customer
+2) Login as Employeee
+3) Exit app
+
+
+==================================
+1)
+
+a) Login Using Email id and Password
+b) Register Yourself If you're New to This app.
+
+
+===================================================
+
+a)                                                                          =   b)
+                                                                            =    Enter your Email
+Enter your Email                                                            =    Enter your Name
+                                                                            =    Create Password      
+Enter Your Password                                                         =
+
+====================================================
+
+Welocome "Xyz" to the app here are the List of products
