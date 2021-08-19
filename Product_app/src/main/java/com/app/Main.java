@@ -4,8 +4,12 @@ import java.util.Scanner;
 
 import org.apache.log4j.Logger;
 
-public class Main {
+import com.app.exception.BusinessException;
+import com.app.model.Product;
+import com.app.service.ProductAddService;
+import com.app.service.impl.ProductAddServiceImpl;
 
+public class Main {
 
 	private static Logger log = Logger.getLogger(Main.class);
 
@@ -37,7 +41,58 @@ public class Main {
 			case 1:
 				log.info("Enter your Email");
 				String email=scanner.nextLine();
-				if (email.matches("[a-zA-Z]{}"))
+				if (email.matches("[a-zA-Z]{4,20}[0-9]{4,10}@gmail.com")) {
+					log.info("Enter your password");
+					String password=scanner.nextLine();
+					if(password.matches("[a-zA-Z]{4,10}[0-9]{3,10}")) {
+						
+						int t=0;
+						do {
+						log.info("\n   Welcome to Maine Menu of App");
+						log.info("=========================================");
+						log.info("|1) View Products   |");
+						log.info("|2) Go to Cart      |");
+						log.info("|3) Check Order     |");
+						log.info("|4) Logout          |");
+						log.info("|___________________|");
+						log.info("|Enter your choice  |");
+						try {
+						t=Integer.parseInt(scanner.nextLine());
+						}catch(NumberFormatException e) {
+							log.warn("Invalid choice choose between 1-4");
+							
+						}
+						switch (t) {
+						case 1:
+							
+							break;
+
+case 2:
+							
+							break;
+case 3:
+	
+	break;
+	
+case 4:
+	log.info("Logout Successfully");
+	break;
+						default:
+							log.info("Invalid Choice Enter number Between 1-4");
+							break;
+						}
+						
+						
+						}while(t!=4);
+						
+					}else {
+						log.info("Invalid Password");
+					}
+					
+					
+				}else {
+					log.info("Invalid Email ID");
+				}
 				
 
 				break;
@@ -45,7 +100,7 @@ public class Main {
 				log.info("Enter Employee Id");
 				try {
 				int eid=Integer.parseInt(scanner.nextLine());
-				
+			
 				if (eid==2313) {
 					log.info("Enter your password");
 					String password=scanner.nextLine();
@@ -67,8 +122,29 @@ public class Main {
 						}
 						switch (z) {
 						case 1:
+							Product product=new Product();
+							log.info("Enter Product Name");
+					//		String productName=scanner.nextLine();
+						product.setProductName(scanner.nextLine());
 							
+							log.info("Enter Product Price ");
+							//double productPrice=Double.parseDouble(scanner.nextLine());
+					   product.setProductPrice(Double.parseDouble(scanner.nextLine()));
+							ProductAddService productAddService=new ProductAddServiceImpl();
 							
+						int t=0;
+								
+							try {
+								t=productAddService.addProduct(product);
+								if (t!=0) {
+									log.info("Product added succesfully");
+								
+							
+									}
+							} catch (BusinessException e) {
+								log.warn("Invalid Entry");
+							}
+								
 							break;
 
 case 2:
@@ -76,7 +152,7 @@ case 2:
 							break;
 							
 case 3:
-	   log.info("\n Logging out ");
+	   log.info("\n Logout Succesfully ");
 	break;
 						default:
 							log.info("Invalid Choice Choice must be Between 1-3");
@@ -89,12 +165,15 @@ case 3:
 					log.info("Invalid Employee Id Please Enter The Correct Employee Id");
 				}
 				}catch(NumberFormatException e) {
-					log.warn("Employee Id Must be Integer of Four Digit");
+					log.warn("Invalid Employee Id It must be Integer");
 				}
-
+				
 				break;
+				
+				
+				
 			case 3:
-				log.info("Under Construction");
+				log.info("Enter your Name ");
 
 				break;
 			case 4:

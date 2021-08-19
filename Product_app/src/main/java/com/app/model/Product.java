@@ -37,6 +37,10 @@ public class Product {
 		this.productPrice = productPrice;
 	}
 
+	public Product() {
+		// TODO Auto-generated constructor stub
+	}
+
 	@Override
 	public String toString() {
 		return "Product [id=" + id + ", productName=" + productName + ", productPrice=" + productPrice + "]";
