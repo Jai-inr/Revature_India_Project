@@ -8,40 +8,39 @@ import java.sql.Statement;
 
 import org.apache.log4j.Logger;
 
-import com.app.dao.ProductAddDAO;
+import com.app.dao.AddCustomerDAO;
 import com.app.dao.util.MySqlDbConnection;
 import com.app.exception.BusinessException;
 import com.app.model.Customer;
-import com.app.model.Product;
 
-public class ProductAddDAOImpl implements ProductAddDAO{
-	private static Logger log = Logger.getLogger(ProductAddDAOImpl.class);
+
+public class AddCustomerDAOImpl implements AddCustomerDAO {
+	private static Logger log = Logger.getLogger(AddCustomerDAOImpl.class);
 
 	@Override
-	public int addProduct( Product product ) throws BusinessException {
+	public int addCustomer(Customer customer) throws BusinessException {
 		int c=0;
 		try(Connection connection=MySqlDbConnection.getConnection()){
-		//	Product product1=new Product();
-			String sql="insert into product(productName, productPrice) values (?,?)";
+			String sql="insert into customer(name, email, password) values (?,?,?)";
 			PreparedStatement preparedStatement=connection.prepareStatement(sql,Statement.RETURN_GENERATED_KEYS);
-			preparedStatement.setString(1, product.getProductName());
-			preparedStatement.setDouble(2, product.getProductPrice());
+			preparedStatement.setString(1, customer.getName());
+			preparedStatement.setString(2, customer.getEmail());
+			preparedStatement.setString(3, customer.getPassword());
+			
 			c=preparedStatement.executeUpdate();
 			if (c==1) {
 				ResultSet resultset=preparedStatement.getGeneratedKeys();
 				if (resultset.next()) {
-					product.setId(resultset.getInt(1));
+					customer.setCustomer_id(resultset.getInt(1));
 				}
 			}
 		
+			
 		} catch (ClassNotFoundException | SQLException e) {
 			log.error(e);
 			throw new BusinessException("Internal error occured contact sysadmin");
 		}
 		return c;
 	}
-
-	
-	
 
 }

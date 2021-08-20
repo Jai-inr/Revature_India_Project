@@ -1,13 +1,24 @@
 package com.app;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 import org.apache.log4j.Logger;
 
 import com.app.exception.BusinessException;
+import com.app.model.Customer;
 import com.app.model.Product;
+import com.app.service.AddCustomerService;
+import com.app.service.CustomerLoginService;
 import com.app.service.ProductAddService;
+import com.app.service.ProductViewService;
+import com.app.service.SearchCustomerService;
+import com.app.service.impl.AddCustomerServiceImpl;
+import com.app.service.impl.CustomerLoginServiceImpl;
 import com.app.service.impl.ProductAddServiceImpl;
+import com.app.service.impl.ProductViewServiceImpl;
+import com.app.service.impl.SearchCustomerServiceImpl;
 
 public class Main {
 
@@ -39,23 +50,32 @@ public class Main {
 
 			switch (ch) {
 			case 1:
+				CustomerLoginService customerLoginService =new CustomerLoginServiceImpl();
 				log.info("Enter your Email");
 				String email=scanner.nextLine();
-				if (email.matches("[a-zA-Z]{4,20}[0-9]{4,10}@gmail.com")) {
+			
 					log.info("Enter your password");
 					String password=scanner.nextLine();
-					if(password.matches("[a-zA-Z]{4,10}[0-9]{3,10}")) {
+			
+				Customer customer;
+				try {
+					customer = customerLoginService.isValidCustomer(email, password);
+					if(customer!=null) {
+						
+
+				
+						log.info("\n Logged in Succesfulluy");
 						
 						int t=0;
 						do {
-						log.info("\n   Welcome to Maine Menu of App");
+						log.info("\n   Welcome to Main Menu of App");
 						log.info("=========================================");
-						log.info("|1) View Products   |");
-						log.info("|2) Go to Cart      |");
-						log.info("|3) Check Order     |");
-						log.info("|4) Logout          |");
-						log.info("|___________________|");
-						log.info("|Enter your choice  |");
+						log.info("|1) View Products           |");
+						log.info("|2) Go to MY Cart           |");
+						log.info("|3) View My Order           |");
+						log.info("|4) Logout                  |");
+						log.info("|___________________________|");
+						log.info(" Enter your choice  ");
 						try {
 						t=Integer.parseInt(scanner.nextLine());
 						}catch(NumberFormatException e) {
@@ -63,11 +83,54 @@ public class Main {
 							
 						}
 						switch (t) {
-						case 1:
+						case 1:ProductViewService productViewService=new ProductViewServiceImpl();
+							try {
+								List<Product> productlist=productViewService.getAllProducts();
+								if(productlist!=null && productlist.size()>0) {
+									log.info("\nList of Products Are listed Below...");
+								for(Product p:productlist) {
+									
+									log.info(p);
+								}
+								int r=0;
+								do {
+								log.info(" \n 1) Add product to Cart");
+								log.info(" \n 2) Exit to Maine Menu ");
+							
+								log.info(" \n  Choose the Option     ");
+								r=Integer.parseInt(scanner.nextLine());
+								switch (r) {
+								case 1:
+									
+									break;
+case 2:
+	log.info("\n We will See You Again");
+									
+									break;
+
+								default:
+									log.info("Invalid Choice Please Enter a Valid Choice ");
+									break;
+								}
+								
+								
+								
+								}while(r!=0);
+								
+								
+								
+								}
+							} catch (BusinessException e) {
+								log.warn(e.getMessage());
+							}
+							
 							
 							break;
 
 case 2:
+	  log.info("\n       Welcome to the Cart ");
+	  log.info("========================================");
+	  
 							
 							break;
 case 3:
@@ -84,14 +147,21 @@ case 4:
 						
 						
 						}while(t!=4);
+					
 						
-					}else {
-						log.info("Invalid Password");
-					}
+//					}else {
+//						log.info("Invalid Password");
+//					}
+//					
+//					
+//				}else {
+//					log.info("Invalid Email ID");
+	//======================================================
+						
+				}
+} catch (BusinessException e1) {
+	log.warn("Invalid Email Id or Password");
 					
-					
-				}else {
-					log.info("Invalid Email ID");
 				}
 				
 
@@ -103,17 +173,17 @@ case 4:
 			
 				if (eid==2313) {
 					log.info("Enter your password");
-					String password=scanner.nextLine();
-					if(password.matches("[a-zA-Z]{4,10}[0-9]{3,10}")) {
+					String Epassword=scanner.nextLine();
+					if(Epassword.matches("[a-zA-Z]{4,10}[0-9]{3,10}")) {
 						int z=0;
 						do {
-						log.info("\n Welcome to Employee Menu ");
-						log.info("===============================");
+						log.info("\n                Welcome to Employee Menu        ");
+						log.info(" ==========================================================");
 						log.info("|1) Add a New Product                 |");
 						log.info("|2) Search Existing Customer          |");
 						log.info("|3) Logout                            |");
 						log.info("_______________________________________");
-						log.info("Enter your choice");
+						log.info("         Enter your choice             ");
 						try {
 						z=Integer.parseInt(scanner.nextLine());
 					
@@ -132,11 +202,11 @@ case 4:
 					   product.setProductPrice(Double.parseDouble(scanner.nextLine()));
 							ProductAddService productAddService=new ProductAddServiceImpl();
 							
-						int t=0;
+						int o=0;
 								
 							try {
-								t=productAddService.addProduct(product);
-								if (t!=0) {
+								o=productAddService.addProduct(product);
+								if (o!=0) {
 									log.info("Product added succesfully");
 								
 							
@@ -148,6 +218,17 @@ case 4:
 							break;
 
 case 2:
+	SearchCustomerService searchCustomerService=new SearchCustomerServiceImpl();
+	    log.info("\nEnter the Customer_id");
+	    int b=Integer.parseInt(scanner.nextLine());
+	    Customer customer1=searchCustomerService.getCustomerById(b);
+	  
+	    if (customer1!=null) {
+	    	  log.info("Details of Customer Is listed below");
+	    	log.info(customer1);
+	    }
+	    
+	    
 							
 							break;
 							
@@ -166,6 +247,9 @@ case 3:
 				}
 				}catch(NumberFormatException e) {
 					log.warn("Invalid Employee Id It must be Integer");
+				} catch (BusinessException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
 				}
 				
 				break;
@@ -173,11 +257,31 @@ case 3:
 				
 				
 			case 3:
-				log.info("Enter your Name ");
+				Customer c=new Customer();
+				log.info("\n Enter your Name ");
+				c.setName(scanner.nextLine());
+				
+					log.info("\n Enter Your Email");
+					c.setEmail(scanner.nextLine());
 
+					log.info("\n Set Password ");
+					c.setPassword(scanner.nextLine());
+					AddCustomerService addCustomerService= new AddCustomerServiceImpl();
+					int w=0;
+				try {
+					w=addCustomerService.addCustomer(c);
+					if (w!=0) {
+						log.info("Registered Successfully");
+					}
+				} catch (BusinessException e) {
+					log.warn(e.getMessage());
+				}
+				
+				
 				break;
 			case 4:
-				log.info("Thanks For using this We'll See you soon");
+				
+				log.info("\n    Thanks For using this App We'll See you soon   ");
 
 				break;
 		
