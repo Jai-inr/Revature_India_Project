@@ -67,5 +67,38 @@ class TestApp {
 		
 	}
 	
+	@Test
+	void testViewProduct() {
+		
+	}
+	
+	
 	
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
