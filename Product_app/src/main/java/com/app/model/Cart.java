@@ -56,4 +56,46 @@ public class Cart {
 				+ ", customer=" + customer + ", product=" + product + "]";
 	}
 
+
+	@Override
+	public int hashCode() {
+		final int prime = 31;
+		int result = 1;
+		result = prime * result + cart_id;
+		result = prime * result + ((customer == null) ? 0 : customer.hashCode());
+		result = prime * result + customer_id;
+		result = prime * result + ((product == null) ? 0 : product.hashCode());
+		result = prime * result + product_id;
+		return result;
+	}
+
+
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		Cart other = (Cart) obj;
+		if (cart_id != other.cart_id)
+			return false;
+		if (customer == null) {
+			if (other.customer != null)
+				return false;
+		} else if (!customer.equals(other.customer))
+			return false;
+		if (customer_id != other.customer_id)
+			return false;
+		if (product == null) {
+			if (other.product != null)
+				return false;
+		} else if (!product.equals(other.product))
+			return false;
+		if (product_id != other.product_id)
+			return false;
+		return true;
+	}
+
 }
