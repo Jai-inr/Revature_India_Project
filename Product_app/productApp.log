@@ -973,3 +973,155 @@ Enter the Customer_id
 [main] 2021-08-20 12:12:01 INFO  com.app.Main  - |3) Logout                            |
 [main] 2021-08-20 12:12:01 INFO  com.app.Main  - _______________________________________
 [main] 2021-08-20 12:12:01 INFO  com.app.Main  -          Enter your choice             
+[main] 2021-08-20 13:02:48 INFO  com.app.dao.impl.CustomerLoginDAOImpl  - Login Failed Invalid Credential
+[main] 2021-08-20 13:09:19 INFO  com.app.Main  - 
+ Welcome To Reliable Online shopping Menu Driven Console Based App 
+[main] 2021-08-20 13:09:19 INFO  com.app.Main  - ========================================================================
+[main] 2021-08-20 13:09:19 INFO  com.app.Main  -  ________________________________
+[main] 2021-08-20 13:09:19 INFO  com.app.Main  - |1) login as customer            |
+[main] 2021-08-20 13:09:19 INFO  com.app.Main  - |2) Login as Employee            |
+[main] 2021-08-20 13:09:19 INFO  com.app.Main  - |3) New User.? Register yourself |
+[main] 2021-08-20 13:09:19 INFO  com.app.Main  - |4) Exit                         |
+[main] 2021-08-20 13:09:19 INFO  com.app.Main  - |________________________________|
+[main] 2021-08-20 13:09:19 INFO  com.app.Main  - Please enter your choice Between (1-4)
+[main] 2021-08-20 13:09:36 INFO  com.app.Main  - Enter your Email
+[main] 2021-08-20 13:09:46 INFO  com.app.Main  - Enter your password
+[main] 2021-08-20 13:12:23 INFO  com.app.dao.impl.CustomerLoginDAOImpl  - Login Success
+[main] 2021-08-20 13:14:58 INFO  com.app.dao.impl.CustomerLoginDAOImpl  - Login Success
+[main] 2021-08-20 13:18:17 INFO  com.app.dao.impl.CustomerLoginDAOImpl  - Login Failed Invalid Credential
+[main] 2021-08-20 13:19:17 INFO  com.app.dao.impl.CustomerLoginDAOImpl  - Login Success
+[main] 2021-08-20 13:19:52 INFO  com.app.dao.impl.CustomerLoginDAOImpl  - Login Success
+[main] 2021-08-20 13:29:22 INFO  com.app.Main  - 
+ Welcome To Reliable Online shopping Menu Driven Console Based App 
+[main] 2021-08-20 13:29:22 INFO  com.app.Main  - ========================================================================
+[main] 2021-08-20 13:29:22 INFO  com.app.Main  -  ________________________________
+[main] 2021-08-20 13:29:22 INFO  com.app.Main  - |1) login as customer            |
+[main] 2021-08-20 13:29:22 INFO  com.app.Main  - |2) Login as Employee            |
+[main] 2021-08-20 13:29:22 INFO  com.app.Main  - |3) New User.? Register yourself |
+[main] 2021-08-20 13:29:22 INFO  com.app.Main  - |4) Exit                         |
+[main] 2021-08-20 13:29:22 INFO  com.app.Main  - |________________________________|
+[main] 2021-08-20 13:29:22 INFO  com.app.Main  - Please enter your choice Between (1-4)
+[main] 2021-08-20 13:29:38 INFO  com.app.Main  - Enter your Email
+[main] 2021-08-20 13:29:45 INFO  com.app.Main  - Enter your password
+[main] 2021-08-20 13:29:46 INFO  com.app.service.impl.CustomerLoginServiceImpl  - Invalid Email Credential Ending with @GMAIL.COM 
+[main] 2021-08-20 13:29:46 INFO  com.app.Main  - 
+ Welcome To Reliable Online shopping Menu Driven Console Based App 
+[main] 2021-08-20 13:29:46 INFO  com.app.Main  - ========================================================================
+[main] 2021-08-20 13:29:46 INFO  com.app.Main  -  ________________________________
+[main] 2021-08-20 13:29:46 INFO  com.app.Main  - |1) login as customer            |
+[main] 2021-08-20 13:29:46 INFO  com.app.Main  - |2) Login as Employee            |
+[main] 2021-08-20 13:29:46 INFO  com.app.Main  - |3) New User.? Register yourself |
+[main] 2021-08-20 13:29:46 INFO  com.app.Main  - |4) Exit                         |
+[main] 2021-08-20 13:29:46 INFO  com.app.Main  - |________________________________|
+[main] 2021-08-20 13:29:46 INFO  com.app.Main  - Please enter your choice Between (1-4)
+[main] 2021-08-20 13:29:51 INFO  com.app.Main  - Enter your Email
+[main] 2021-08-20 13:29:58 INFO  com.app.Main  - Enter your password
+[main] 2021-08-20 13:30:09 INFO  com.app.dao.impl.CustomerLoginDAOImpl  - Login Failed Invalid Credential
+[main] 2021-08-20 13:30:09 INFO  com.app.Main  - 
+ Welcome To Reliable Online shopping Menu Driven Console Based App 
+[main] 2021-08-20 13:30:09 INFO  com.app.Main  - ========================================================================
+[main] 2021-08-20 13:30:09 INFO  com.app.Main  -  ________________________________
+[main] 2021-08-20 13:30:09 INFO  com.app.Main  - |1) login as customer            |
+[main] 2021-08-20 13:30:09 INFO  com.app.Main  - |2) Login as Employee            |
+[main] 2021-08-20 13:30:09 INFO  com.app.Main  - |3) New User.? Register yourself |
+[main] 2021-08-20 13:30:09 INFO  com.app.Main  - |4) Exit                         |
+[main] 2021-08-20 13:30:09 INFO  com.app.Main  - |________________________________|
+[main] 2021-08-20 13:30:09 INFO  com.app.Main  - Please enter your choice Between (1-4)
+[main] 2021-08-20 13:30:23 INFO  com.app.Main  - Enter your Email
+[main] 2021-08-20 13:30:30 INFO  com.app.Main  - Enter your password
+[main] 2021-08-20 13:30:38 INFO  com.app.dao.impl.CustomerLoginDAOImpl  - Login Success
+[main] 2021-08-20 13:30:38 INFO  com.app.Main  - 
+ Logged in Succesfulluy
+[main] 2021-08-20 13:30:38 INFO  com.app.Main  - 
+   Welcome to Main Menu of App
+[main] 2021-08-20 13:30:38 INFO  com.app.Main  - =========================================
+[main] 2021-08-20 13:30:38 INFO  com.app.Main  - |1) View Products           |
+[main] 2021-08-20 13:30:38 INFO  com.app.Main  - |2) Go to MY Cart           |
+[main] 2021-08-20 13:30:38 INFO  com.app.Main  - |3) View My Order           |
+[main] 2021-08-20 13:30:38 INFO  com.app.Main  - |4) Logout                  |
+[main] 2021-08-20 13:30:38 INFO  com.app.Main  - |___________________________|
+[main] 2021-08-20 13:30:38 INFO  com.app.Main  -  Enter your choice  
+[main] 2021-08-20 13:30:44 INFO  com.app.Main  - 
+List of Products Are listed Below...
+[main] 2021-08-20 13:30:44 INFO  com.app.Main  - Product [id=1, productName=Televison, productPrice=3000.0]
+[main] 2021-08-20 13:30:44 INFO  com.app.Main  - Product [id=2, productName=Laptop, productPrice=3000.0]
+[main] 2021-08-20 13:30:44 INFO  com.app.Main  - Product [id=3, productName=refrigarator, productPrice=3000.0]
+[main] 2021-08-20 13:30:44 INFO  com.app.Main  - Product [id=4, productName=Tv, productPrice=4000.0]
+[main] 2021-08-20 13:30:44 INFO  com.app.Main  - Product [id=5, productName=oven, productPrice=2000.0]
+[main] 2021-08-20 13:30:44 INFO  com.app.Main  - Product [id=6, productName=Phone, productPrice=3400.0]
+[main] 2021-08-20 13:30:44 INFO  com.app.Main  - Product [id=7, productName=remote, productPrice=314.0]
+[main] 2021-08-20 13:30:44 INFO  com.app.Main  - Product [id=8, productName=cpu, productPrice=200.0]
+[main] 2021-08-20 13:30:44 INFO  com.app.Main  - Product [id=9, productName=earphone, productPrice=330.0]
+[main] 2021-08-20 13:30:44 INFO  com.app.Main  - Product [id=10, productName=mouse, productPrice=200.0]
+[main] 2021-08-20 13:30:44 INFO  com.app.Main  - Product [id=11, productName=ups, productPrice=200.0]
+[main] 2021-08-20 13:30:44 INFO  com.app.Main  - Product [id=12, productName=charger, productPrice=100.0]
+[main] 2021-08-20 13:30:44 INFO  com.app.Main  -  
+ 1) Add product to Cart
+[main] 2021-08-20 13:30:44 INFO  com.app.Main  -  
+ 2) Exit to Maine Menu 
+[main] 2021-08-20 13:30:44 INFO  com.app.Main  -  
+  Choose the Option     
+[main] 2021-08-20 13:30:49 INFO  com.app.Main  - 
+ We will See You Again
+[main] 2021-08-20 13:30:49 INFO  com.app.Main  -  
+ 1) Add product to Cart
+[main] 2021-08-20 13:30:49 INFO  com.app.Main  -  
+ 2) Exit to Maine Menu 
+[main] 2021-08-20 13:30:49 INFO  com.app.Main  -  
+  Choose the Option     
+[main] 2021-08-20 13:31:29 INFO  com.app.Main  - 
+ Welcome To Reliable Online shopping Menu Driven Console Based App 
+[main] 2021-08-20 13:31:29 INFO  com.app.Main  - ========================================================================
+[main] 2021-08-20 13:31:29 INFO  com.app.Main  -  ________________________________
+[main] 2021-08-20 13:31:29 INFO  com.app.Main  - |1) login as customer            |
+[main] 2021-08-20 13:31:29 INFO  com.app.Main  - |2) Login as Employee            |
+[main] 2021-08-20 13:31:29 INFO  com.app.Main  - |3) New User.? Register yourself |
+[main] 2021-08-20 13:31:29 INFO  com.app.Main  - |4) Exit                         |
+[main] 2021-08-20 13:31:29 INFO  com.app.Main  - |________________________________|
+[main] 2021-08-20 13:31:29 INFO  com.app.Main  - Please enter your choice Between (1-4)
+[main] 2021-08-20 13:31:34 INFO  com.app.Main  - Enter your Email
+[main] 2021-08-20 13:31:42 INFO  com.app.Main  - Enter your password
+[main] 2021-08-20 13:32:07 INFO  com.app.dao.impl.CustomerLoginDAOImpl  - Login Success
+[main] 2021-08-20 13:32:07 INFO  com.app.Main  - 
+ Logged in Succesfulluy
+[main] 2021-08-20 13:32:07 INFO  com.app.Main  - 
+   Welcome to Main Menu of App
+[main] 2021-08-20 13:32:07 INFO  com.app.Main  - =========================================
+[main] 2021-08-20 13:32:07 INFO  com.app.Main  - |1) View Products           |
+[main] 2021-08-20 13:32:07 INFO  com.app.Main  - |2) Go to MY Cart           |
+[main] 2021-08-20 13:32:07 INFO  com.app.Main  - |3) View My Order           |
+[main] 2021-08-20 13:32:07 INFO  com.app.Main  - |4) Logout                  |
+[main] 2021-08-20 13:32:07 INFO  com.app.Main  - |___________________________|
+[main] 2021-08-20 13:32:07 INFO  com.app.Main  -  Enter your choice  
+[main] 2021-08-20 13:32:10 INFO  com.app.Main  - 
+List of Products Are listed Below...
+[main] 2021-08-20 13:32:10 INFO  com.app.Main  - Product [id=1, productName=Televison, productPrice=3000.0]
+[main] 2021-08-20 13:32:10 INFO  com.app.Main  - Product [id=2, productName=Laptop, productPrice=3000.0]
+[main] 2021-08-20 13:32:10 INFO  com.app.Main  - Product [id=3, productName=refrigarator, productPrice=3000.0]
+[main] 2021-08-20 13:32:10 INFO  com.app.Main  - Product [id=4, productName=Tv, productPrice=4000.0]
+[main] 2021-08-20 13:32:10 INFO  com.app.Main  - Product [id=5, productName=oven, productPrice=2000.0]
+[main] 2021-08-20 13:32:10 INFO  com.app.Main  - Product [id=6, productName=Phone, productPrice=3400.0]
+[main] 2021-08-20 13:32:10 INFO  com.app.Main  - Product [id=7, productName=remote, productPrice=314.0]
+[main] 2021-08-20 13:32:10 INFO  com.app.Main  - Product [id=8, productName=cpu, productPrice=200.0]
+[main] 2021-08-20 13:32:10 INFO  com.app.Main  - Product [id=9, productName=earphone, productPrice=330.0]
+[main] 2021-08-20 13:32:10 INFO  com.app.Main  - Product [id=10, productName=mouse, productPrice=200.0]
+[main] 2021-08-20 13:32:10 INFO  com.app.Main  - Product [id=11, productName=ups, productPrice=200.0]
+[main] 2021-08-20 13:32:10 INFO  com.app.Main  - Product [id=12, productName=charger, productPrice=100.0]
+[main] 2021-08-20 13:32:10 INFO  com.app.Main  -  
+ 1) Add product to Cart
+[main] 2021-08-20 13:32:10 INFO  com.app.Main  -  
+ 2) Exit to Maine Menu 
+[main] 2021-08-20 13:32:10 INFO  com.app.Main  -  
+  Choose the Option     
+[main] 2021-08-20 13:32:14 INFO  com.app.Main  - 
+ We will See You Again
+[main] 2021-08-20 13:32:14 INFO  com.app.Main  - 
+   Welcome to Main Menu of App
+[main] 2021-08-20 13:32:14 INFO  com.app.Main  - =========================================
+[main] 2021-08-20 13:32:14 INFO  com.app.Main  - |1) View Products           |
+[main] 2021-08-20 13:32:14 INFO  com.app.Main  - |2) Go to MY Cart           |
+[main] 2021-08-20 13:32:14 INFO  com.app.Main  - |3) View My Order           |
+[main] 2021-08-20 13:32:14 INFO  com.app.Main  - |4) Logout                  |
+[main] 2021-08-20 13:32:14 INFO  com.app.Main  - |___________________________|
+[main] 2021-08-20 13:32:14 INFO  com.app.Main  -  Enter your choice  
+[main] 2021-08-20 13:51:51 INFO  com.app.dao.impl.CustomerLoginDAOImpl  - Login Success

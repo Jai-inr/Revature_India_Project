@@ -104,7 +104,9 @@ public class Main {
 									
 									break;
 case 2:
-	log.info("\n We will See You Again");
+	log.info("\n      Going Back to Main Menu   ");
+	log.info("===================================== ");
+	
 									
 									break;
 
@@ -115,7 +117,7 @@ case 2:
 								
 								
 								
-								}while(r!=0);
+								}while(r!=2);
 								
 								
 								
