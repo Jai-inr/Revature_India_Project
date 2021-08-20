@@ -22,7 +22,7 @@ public class CustomerLoginDAOImpl implements CustomerLoginDAO {
 		
 		try(Connection connection=MySqlDbConnection.getConnection()){
 		
-			String sql="Select name, email, password where email='?' and password='?'";
+			String sql="Select name, email, password from customer where email=? and password=?";
 			PreparedStatement preparedStatement=connection.prepareStatement(sql);
 			
 			preparedStatement.setString(1, email);
@@ -30,7 +30,7 @@ public class CustomerLoginDAOImpl implements CustomerLoginDAO {
 			ResultSet resultSet=preparedStatement.executeQuery();
 			if (resultSet.next()) {
 				 customer =new Customer();
-//				customer.setCustomer_id(resultSet.getInt("customer_id"));
+
 				customer.setEmail(resultSet.getString("email"));
 				customer.setName(resultSet.getString("name"));
 				customer.setPassword(resultSet.getString("password"));

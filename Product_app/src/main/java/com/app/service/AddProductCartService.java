@@ -1,5 +1,8 @@
 package com.app.service;
 
-public interface AddProductCartService {
+import com.app.exception.BusinessException;
 
+public interface AddProductCartService {
+ 
+	public int addProductToCart(int id ,int Customer_id) throws BusinessException;
 }

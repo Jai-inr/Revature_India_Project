@@ -13,6 +13,7 @@ public class ProductAddServiceImpl implements ProductAddService{
 	ProductAddDAO productAddDAO= new ProductAddDAOImpl();
 	@Override
 	public int addProduct(Product product) throws BusinessException {
+		
 
 		return productAddDAO.addProduct(product);
 		

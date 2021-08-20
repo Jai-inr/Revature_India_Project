@@ -15,7 +15,7 @@ import com.app.model.Customer;
 public class SearchCustomerDAOImpl implements SearchCustomerDAO{
 	private static Logger log = Logger.getLogger(SearchCustomerDAOImpl.class);
 	@Override
-	public Customer getCustomerById(int cutomer_id) throws BusinessException {
+	public Customer getCustomerById(int customer_id) throws BusinessException {
 		// TODO Auto-generated method stub
 		
 		
@@ -24,7 +24,7 @@ public class SearchCustomerDAOImpl implements SearchCustomerDAO{
 			try(Connection connection=MySqlDbConnection.getConnection()){
 				String sql="select customer_id, name, email, password from customer where customer_id=?";
 				PreparedStatement preparedStatement=connection.prepareStatement(sql);
-				preparedStatement.setInt(1, customer.getCustomer_id());
+				preparedStatement.setInt(1, customer_id);
 				ResultSet resultSet=preparedStatement.executeQuery();
 				if(resultSet.next()) {
 					customer=new Customer();

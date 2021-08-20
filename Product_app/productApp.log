@@ -835,3 +835,141 @@ Enter the Customer_id
 [main] 2021-08-20 11:27:51 INFO  com.app.Main  - |4) Exit                         |
 [main] 2021-08-20 11:27:51 INFO  com.app.Main  - |________________________________|
 [main] 2021-08-20 11:27:51 INFO  com.app.Main  - Please enter your choice Between (1-4)
+[main] 2021-08-20 11:56:18 INFO  com.app.Main  - 
+ Welcome To Reliable Online shopping Menu Driven Console Based App 
+[main] 2021-08-20 11:56:18 INFO  com.app.Main  - ========================================================================
+[main] 2021-08-20 11:56:18 INFO  com.app.Main  -  ________________________________
+[main] 2021-08-20 11:56:18 INFO  com.app.Main  - |1) login as customer            |
+[main] 2021-08-20 11:56:18 INFO  com.app.Main  - |2) Login as Employee            |
+[main] 2021-08-20 11:56:18 INFO  com.app.Main  - |3) New User.? Register yourself |
+[main] 2021-08-20 11:56:18 INFO  com.app.Main  - |4) Exit                         |
+[main] 2021-08-20 11:56:18 INFO  com.app.Main  - |________________________________|
+[main] 2021-08-20 11:56:18 INFO  com.app.Main  - Please enter your choice Between (1-4)
+[main] 2021-08-20 11:56:42 INFO  com.app.Main  - Enter your Email
+[main] 2021-08-20 11:56:58 INFO  com.app.Main  - Enter your password
+[main] 2021-08-20 11:57:16 ERROR com.app.dao.impl.CustomerLoginDAOImpl  - java.sql.SQLException: Parameter index out of range (1 > number of parameters, which is 0).
+[main] 2021-08-20 11:57:16 WARN  com.app.Main  - Invalid Email Id or Password
+[main] 2021-08-20 11:57:16 INFO  com.app.Main  - 
+ Welcome To Reliable Online shopping Menu Driven Console Based App 
+[main] 2021-08-20 11:57:16 INFO  com.app.Main  - ========================================================================
+[main] 2021-08-20 11:57:16 INFO  com.app.Main  -  ________________________________
+[main] 2021-08-20 11:57:16 INFO  com.app.Main  - |1) login as customer            |
+[main] 2021-08-20 11:57:16 INFO  com.app.Main  - |2) Login as Employee            |
+[main] 2021-08-20 11:57:16 INFO  com.app.Main  - |3) New User.? Register yourself |
+[main] 2021-08-20 11:57:16 INFO  com.app.Main  - |4) Exit                         |
+[main] 2021-08-20 11:57:16 INFO  com.app.Main  - |________________________________|
+[main] 2021-08-20 11:57:16 INFO  com.app.Main  - Please enter your choice Between (1-4)
+[main] 2021-08-20 11:59:02 INFO  com.app.Main  - 
+ Welcome To Reliable Online shopping Menu Driven Console Based App 
+[main] 2021-08-20 11:59:02 INFO  com.app.Main  - ========================================================================
+[main] 2021-08-20 11:59:02 INFO  com.app.Main  -  ________________________________
+[main] 2021-08-20 11:59:02 INFO  com.app.Main  - |1) login as customer            |
+[main] 2021-08-20 11:59:02 INFO  com.app.Main  - |2) Login as Employee            |
+[main] 2021-08-20 11:59:02 INFO  com.app.Main  - |3) New User.? Register yourself |
+[main] 2021-08-20 11:59:02 INFO  com.app.Main  - |4) Exit                         |
+[main] 2021-08-20 11:59:02 INFO  com.app.Main  - |________________________________|
+[main] 2021-08-20 11:59:02 INFO  com.app.Main  - Please enter your choice Between (1-4)
+[main] 2021-08-20 11:59:13 INFO  com.app.Main  - Enter your Email
+[main] 2021-08-20 11:59:20 INFO  com.app.Main  - Enter your password
+[main] 2021-08-20 11:59:29 ERROR com.app.dao.impl.CustomerLoginDAOImpl  - java.sql.SQLSyntaxErrorException: Unknown column 'name' in 'field list'
+[main] 2021-08-20 11:59:29 WARN  com.app.Main  - Invalid Email Id or Password
+[main] 2021-08-20 11:59:29 INFO  com.app.Main  - 
+ Welcome To Reliable Online shopping Menu Driven Console Based App 
+[main] 2021-08-20 11:59:29 INFO  com.app.Main  - ========================================================================
+[main] 2021-08-20 11:59:29 INFO  com.app.Main  -  ________________________________
+[main] 2021-08-20 11:59:29 INFO  com.app.Main  - |1) login as customer            |
+[main] 2021-08-20 11:59:29 INFO  com.app.Main  - |2) Login as Employee            |
+[main] 2021-08-20 11:59:29 INFO  com.app.Main  - |3) New User.? Register yourself |
+[main] 2021-08-20 11:59:29 INFO  com.app.Main  - |4) Exit                         |
+[main] 2021-08-20 11:59:29 INFO  com.app.Main  - |________________________________|
+[main] 2021-08-20 11:59:29 INFO  com.app.Main  - Please enter your choice Between (1-4)
+[main] 2021-08-20 12:02:51 INFO  com.app.Main  - 
+ Welcome To Reliable Online shopping Menu Driven Console Based App 
+[main] 2021-08-20 12:02:51 INFO  com.app.Main  - ========================================================================
+[main] 2021-08-20 12:02:51 INFO  com.app.Main  -  ________________________________
+[main] 2021-08-20 12:02:51 INFO  com.app.Main  - |1) login as customer            |
+[main] 2021-08-20 12:02:51 INFO  com.app.Main  - |2) Login as Employee            |
+[main] 2021-08-20 12:02:51 INFO  com.app.Main  - |3) New User.? Register yourself |
+[main] 2021-08-20 12:02:51 INFO  com.app.Main  - |4) Exit                         |
+[main] 2021-08-20 12:02:51 INFO  com.app.Main  - |________________________________|
+[main] 2021-08-20 12:02:51 INFO  com.app.Main  - Please enter your choice Between (1-4)
+[main] 2021-08-20 12:02:55 INFO  com.app.Main  - Enter your Email
+[main] 2021-08-20 12:03:04 INFO  com.app.Main  - Enter your password
+[main] 2021-08-20 12:03:12 INFO  com.app.dao.impl.CustomerLoginDAOImpl  - Login Success
+[main] 2021-08-20 12:03:12 INFO  com.app.Main  - 
+ Logged in Succesfulluy
+[main] 2021-08-20 12:03:12 INFO  com.app.Main  - 
+   Welcome to Main Menu of App
+[main] 2021-08-20 12:03:12 INFO  com.app.Main  - =========================================
+[main] 2021-08-20 12:03:12 INFO  com.app.Main  - |1) View Products           |
+[main] 2021-08-20 12:03:12 INFO  com.app.Main  - |2) Go to MY Cart           |
+[main] 2021-08-20 12:03:12 INFO  com.app.Main  - |3) View My Order           |
+[main] 2021-08-20 12:03:12 INFO  com.app.Main  - |4) Logout                  |
+[main] 2021-08-20 12:03:12 INFO  com.app.Main  - |___________________________|
+[main] 2021-08-20 12:03:12 INFO  com.app.Main  -  Enter your choice  
+[main] 2021-08-20 12:04:11 INFO  com.app.Main  - Logout Successfully
+[main] 2021-08-20 12:04:11 INFO  com.app.Main  - 
+ Welcome To Reliable Online shopping Menu Driven Console Based App 
+[main] 2021-08-20 12:04:11 INFO  com.app.Main  - ========================================================================
+[main] 2021-08-20 12:04:11 INFO  com.app.Main  -  ________________________________
+[main] 2021-08-20 12:04:11 INFO  com.app.Main  - |1) login as customer            |
+[main] 2021-08-20 12:04:11 INFO  com.app.Main  - |2) Login as Employee            |
+[main] 2021-08-20 12:04:11 INFO  com.app.Main  - |3) New User.? Register yourself |
+[main] 2021-08-20 12:04:11 INFO  com.app.Main  - |4) Exit                         |
+[main] 2021-08-20 12:04:11 INFO  com.app.Main  - |________________________________|
+[main] 2021-08-20 12:04:11 INFO  com.app.Main  - Please enter your choice Between (1-4)
+[main] 2021-08-20 12:04:19 INFO  com.app.Main  - Enter Employee Id
+[main] 2021-08-20 12:04:22 INFO  com.app.Main  - Enter your password
+[main] 2021-08-20 12:04:28 INFO  com.app.Main  - 
+                Welcome to Employee Menu        
+[main] 2021-08-20 12:04:28 INFO  com.app.Main  -  ==========================================================
+[main] 2021-08-20 12:04:28 INFO  com.app.Main  - |1) Add a New Product                 |
+[main] 2021-08-20 12:04:28 INFO  com.app.Main  - |2) Search Existing Customer          |
+[main] 2021-08-20 12:04:28 INFO  com.app.Main  - |3) Logout                            |
+[main] 2021-08-20 12:04:28 INFO  com.app.Main  - _______________________________________
+[main] 2021-08-20 12:04:28 INFO  com.app.Main  -          Enter your choice             
+[main] 2021-08-20 12:04:35 INFO  com.app.Main  - Enter Product Name
+[main] 2021-08-20 12:04:41 INFO  com.app.Main  - Enter Product Price 
+[main] 2021-08-20 12:04:45 INFO  com.app.Main  - Product added succesfully
+[main] 2021-08-20 12:04:45 INFO  com.app.Main  - 
+                Welcome to Employee Menu        
+[main] 2021-08-20 12:04:45 INFO  com.app.Main  -  ==========================================================
+[main] 2021-08-20 12:04:45 INFO  com.app.Main  - |1) Add a New Product                 |
+[main] 2021-08-20 12:04:45 INFO  com.app.Main  - |2) Search Existing Customer          |
+[main] 2021-08-20 12:04:45 INFO  com.app.Main  - |3) Logout                            |
+[main] 2021-08-20 12:04:45 INFO  com.app.Main  - _______________________________________
+[main] 2021-08-20 12:04:45 INFO  com.app.Main  -          Enter your choice             
+[main] 2021-08-20 12:08:19 INFO  com.app.Main  - 
+Enter the Customer_id
+[main] 2021-08-20 12:11:42 INFO  com.app.Main  - 
+ Welcome To Reliable Online shopping Menu Driven Console Based App 
+[main] 2021-08-20 12:11:42 INFO  com.app.Main  - ========================================================================
+[main] 2021-08-20 12:11:42 INFO  com.app.Main  -  ________________________________
+[main] 2021-08-20 12:11:42 INFO  com.app.Main  - |1) login as customer            |
+[main] 2021-08-20 12:11:42 INFO  com.app.Main  - |2) Login as Employee            |
+[main] 2021-08-20 12:11:42 INFO  com.app.Main  - |3) New User.? Register yourself |
+[main] 2021-08-20 12:11:42 INFO  com.app.Main  - |4) Exit                         |
+[main] 2021-08-20 12:11:42 INFO  com.app.Main  - |________________________________|
+[main] 2021-08-20 12:11:42 INFO  com.app.Main  - Please enter your choice Between (1-4)
+[main] 2021-08-20 12:11:46 INFO  com.app.Main  - Enter Employee Id
+[main] 2021-08-20 12:11:50 INFO  com.app.Main  - Enter your password
+[main] 2021-08-20 12:11:53 INFO  com.app.Main  - 
+                Welcome to Employee Menu        
+[main] 2021-08-20 12:11:53 INFO  com.app.Main  -  ==========================================================
+[main] 2021-08-20 12:11:53 INFO  com.app.Main  - |1) Add a New Product                 |
+[main] 2021-08-20 12:11:53 INFO  com.app.Main  - |2) Search Existing Customer          |
+[main] 2021-08-20 12:11:53 INFO  com.app.Main  - |3) Logout                            |
+[main] 2021-08-20 12:11:53 INFO  com.app.Main  - _______________________________________
+[main] 2021-08-20 12:11:53 INFO  com.app.Main  -          Enter your choice             
+[main] 2021-08-20 12:11:56 INFO  com.app.Main  - 
+Enter the Customer_id
+[main] 2021-08-20 12:12:01 INFO  com.app.Main  - Details of Customer Is listed below
+[main] 2021-08-20 12:12:01 INFO  com.app.Main  - Customer [customer_id=1, name=jai Yadav, email=jai@gmail.com, password=Asdsf13124]
+[main] 2021-08-20 12:12:01 INFO  com.app.Main  - 
+                Welcome to Employee Menu        
+[main] 2021-08-20 12:12:01 INFO  com.app.Main  -  ==========================================================
+[main] 2021-08-20 12:12:01 INFO  com.app.Main  - |1) Add a New Product                 |
+[main] 2021-08-20 12:12:01 INFO  com.app.Main  - |2) Search Existing Customer          |
+[main] 2021-08-20 12:12:01 INFO  com.app.Main  - |3) Logout                            |
+[main] 2021-08-20 12:12:01 INFO  com.app.Main  - _______________________________________
+[main] 2021-08-20 12:12:01 INFO  com.app.Main  -          Enter your choice             
